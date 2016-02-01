@@ -2,15 +2,16 @@
   "name": "arduino-node-test",
   "version": "1.0.0",
   "description": "Visual Jenkins monitor",
-  "main": "strobe.js",
+  "main": "jenkins_notification.js",
   "dependencies": {
     "johnny-five": "^0.9.19",
     "jshint": "^2.9.1",
-    "node-pixel": "^0.6.0"
+    "node-pixel": "^0.6.0",
+    "jenkins": "^0.13.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node sweepPattern.js"
+    "test": "node jenkins_notification.js"
   },
   "author": "Zachary Rice",
   "license": "MIT"
